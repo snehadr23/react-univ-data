@@ -1,4 +1,4 @@
-A page that displays a CSV file as a visual database
+A page that displays a CSV file as a visual database and filters results as per the user's input in the search field.
 
 1. This workspace was created using
    ### `npx create-react-app react-univ-data`
