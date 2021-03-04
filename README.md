@@ -20,15 +20,19 @@ https://github.com/snehadr23/react-univ-data.git
 
 and then run:
 
+### `cd react-univ-data`
+
+and then run:
+
 ### `npm install`  
 
 The following dependencies will be installed:
-    1. axios
-    2. papaparse
-    3. react
-    4. react-dom
-    5. react-scripts
-    6. web-vitals
+1. axios
+2. papaparse
+3. react
+4. react-dom
+5. react-scripts
+6. web-vitals
 
 ### `axios`
 
