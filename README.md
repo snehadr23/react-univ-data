@@ -40,5 +40,5 @@ This module helps make AJAX calls
 
 ### `papaparse`
 
-This module helps pase CSV data
+This module helps parse CSV data
 
