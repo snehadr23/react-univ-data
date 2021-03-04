@@ -36,7 +36,7 @@ The following dependencies will be installed:
 
 ### `axios`
 
-This modules helps make AJAX calls
+This module helps make AJAX calls
 
 ### `papaparse`
 
