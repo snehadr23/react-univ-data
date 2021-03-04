@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,227 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  background-color: transparent !important;
+  position: absolute;
+  width: 84%;
+  height: 8%;
+  left: 10.5%;
+  top: 6%;
+}
+
+.navbar .nav-item.active {
+  border-bottom: 2px solid orangered;
+}
+
+.title {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 69%;
+  height: 14.8%;
+  left: 222px;
+  top: 155px;
+  text-align: left;
+}
+.title .title-text {
+  display: block;
+  float: left;
+  width: 56.7%;
+  height: 54%;
+}
+
+.title h1 {
+  position: static;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 69px;
+  line-height: 100%;
+  letter-spacing: -1.85px;
+
+  color: #000000;
+}
+
+.title p {
+  position: static;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 145%;
+  color: #000000;
+  flex: none;
+  order: 1;
+}
+
+.title .title-image {
+  position: static;
+  width: 384px;
+  height: 383px;
+  left: 612px;
+  top: 0px;
+  background: linear-gradient(0deg, #E16259, #E16259), url(static/media/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.png);
+  background-blend-mode: screen, normal;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  position: absolute;
+  width: 26.5%;
+  height: 44px;
+  left: 120px;
+  top: 498px;
+  border: 2px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.search input {
+  height:  100%;
+  width: 100%;
+  border: none;
+}
+
+.search input:focus, .search input:active {
+  outline: none;
+}
+
+.univ-list {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 84%;
+  height: 1922px;
+  left: 120px;
+  top: 592px;
+}
+
+.univ {
+  height: auto;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 16px;
+  position: static;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  float: left;
+  margin-left: 0;
+  margin-bottom: 24px;
+}
+
+.univ .city {
+  position: static;
+  left: 0%;
+  right: 37.23%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+
+.univ .state {
+  position: static;
+  left: 75.53%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+
+.univ .univ-name {
+  position: static;
+  width: 90%;
+  left: calc(50% - 250px/2);
+  top: 17.24%;
+  bottom: 0%;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 135%;
+  color: #000000;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+  text-align: left;
+}
+
+.univ .univ-url {
+  position: static;
+  left: 5.67%;
+  right: 69.5%;
+  top: 82.5%;
+  bottom: 6%;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  width: 90%;
+  color: #E16259;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.univ .separator {
+  position: static;
+  left: 67.02%;
+  right: 28.72%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 4px;
 }
