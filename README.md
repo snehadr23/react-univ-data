@@ -1,12 +1,12 @@
 A page that displays a CSV file as a visual database and filters results as per the user's input in the search field.
 
-1. This workspace was created using
+This workspace was created using
    ### `npx create-react-app react-univ-data`
    which created the folder 'react-univ-data' with the following dependencies pre-installed for development
-   a. react
-   b. react-dom
-   c. react-scripts
-   d. web-vitals
+   1. react
+   2. react-dom
+   3. react-scripts
+   4. web-vitals
 
 # Instructions
 
