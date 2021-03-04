@@ -16,7 +16,7 @@ To succesfully install this module the following are required before downloading
 
 After verifying that Node and npm are available, this module can be dowloaded from the git repo
 
-
+https://github.com/snehadr23/react-univ-data.git
 
 and then run:
 
